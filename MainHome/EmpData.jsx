@@ -1,5 +1,7 @@
+import AttendanceCard from "@/components/AttendenceTable/AttendanceTable";
 import SearchInput from "@/components/ui/Shared/SearchInput";
 import SelectDrop from "@/components/ui/Shared/SelectDrop";
+
 import { Button } from "@/components/ui/button";
 
 import Image from "next/image";
@@ -36,7 +38,7 @@ const EmpData = () => {
       </div>
 
       <div className="my-5 flex justify-between items-center mx-5">
-        <Button className="bg-emerald-400 flex items-center">
+        <Button className="bg-green-400 flex items-center">
           <span className="text-white">موظف جديد</span>
           <Image src={"./plus.svg"} alt="vector" width={24} height={24} />
         </Button>
@@ -52,6 +54,8 @@ const EmpData = () => {
           </div>
         </div>
       </div>
+
+      <AttendanceCard />
     </section>
   );
 };

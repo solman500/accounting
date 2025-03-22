@@ -8,12 +8,11 @@ const SelectDrop = () => {
     </SelectTrigger>
     <SelectContent>
       <SelectGroup>
-        <SelectLabel>Fruits</SelectLabel>
-        <SelectItem value="apple">Apple</SelectItem>
-        <SelectItem value="banana">Banana</SelectItem>
-        <SelectItem value="blueberry">Blueberry</SelectItem>
-        <SelectItem value="grapes">Grapes</SelectItem>
-        <SelectItem value="pineapple">Pineapple</SelectItem>
+        <SelectLabel>احمد محمد </SelectLabel>
+        <SelectItem value="apple">محمد</SelectItem>
+        <SelectItem value="banana">سليمان</SelectItem>
+        <SelectItem value="blueberry">على</SelectItem>
+    
       </SelectGroup>
     </SelectContent>
   </Select>
